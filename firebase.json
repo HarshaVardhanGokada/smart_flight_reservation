@@ -1,0 +1,44 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "smart-flight-reservation",
+          "appId": "1:452345325632:android:16e385e1a8bc0c0d7897a5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "smart-flight-reservation",
+          "appId": "1:452345325632:ios:5cf4f137854d8c367897a5",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "smart-flight-reservation",
+          "appId": "1:452345325632:ios:5cf4f137854d8c367897a5",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "smart-flight-reservation",
+          "configurations": {
+            "android": "1:452345325632:android:16e385e1a8bc0c0d7897a5",
+            "ios": "1:452345325632:ios:5cf4f137854d8c367897a5",
+            "macos": "1:452345325632:ios:5cf4f137854d8c367897a5",
+            "web": "1:452345325632:web:11d4a06f62b0d68d7897a5",
+            "windows": "1:452345325632:web:16cd5d43d1fd8da47897a5"
+          }
+        }
+      }
+    }
+  }
+}
